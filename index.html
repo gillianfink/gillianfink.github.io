@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Broadsheet Fiction</title>
+
+  <!-- This sets the initial view for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css" media="screen">
+    html {
+      /* Make iOS not resize on device rotation */
+      -ms-text-size-adjust: 100%; 
+      -webkit-text-size-adjust: 100%;
+
+      /* NOTE
+      html is set to 62.5% so that all the REM measurements throughout Skeleton
+      are based on 10px sizing. So basically 1.5rem = 15px  
+      
+      Change this if you want to base your REM measuements on something other 
+      than 10px as the base
+      */
+      font-size: 62.5%; 
+    }
+
+    body {
+      font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+      line-height: 1.6;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    p {
+      margin-top: 1rem; }
+      
+    p.first {
+      margin-top:4;
+    }
+
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0rem;
+      font-size: 2.4rem;
+      line-height: 1.35; 
+    }
+
+    h4.title {
+        font-size: 2.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+        line-height: 1.6;
+        font-weight: 5000;
+        margin-top: 6rem;
+		padding:0;
+    }
+
+    h4.author {
+        font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+        line-height: 1;
+        font-weight: 500;
+        margin-bottom: 9rem;
+		padding:0;
+    }
+
+    .wrapper {
+      display:flex;
+    }
+
+    .column {
+      width: 100rem; /* Set your column width here */
+      margin: auto;
+    }
+
+    /* Larger than mobile */
+    @media (min-width: 400px) {
+	    .column {
+	      width:40rem; /* Set your column width here */
+	    }
+    }
+
+    /* Larger than phablet (also point when grid becomes active) */
+    @media (min-width: 550px) {
+		.column {
+        width: 75rem; /* Set your column width here */
+        margin: auto;
+    }
+}
+
+    /* Larger than tablet */
+    @media (min-width: 750px) {}
+
+    /* Larger than desktop */
+    @media (min-width: 1000px) {}
+
+    /* Larger than Desktop HD */
+    @media (min-width: 1200px) {}
+    
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="column">
+        <h4 class="title">Broadsheet Fiction</h4>
+        <h4 class="author">Eye Magazine</h4>
+        <p class="first">The New York Times published Sunday 7 August 2016 contained a monochrome newsprint section entirely devoted to a piece of fiction – Colson Whitehead’s ‘There was no other way’.</p>
+        <p>This is an extract from Whitehead’s The Underground Railroad, a new novel set in mid-nineteenth century US, when slavery had yet to be abolished. Its subject: the experience of a woman slave escaping from her plantation. It was printed on the newspaper press like all the other sections of the paper – Home News, Sport, Real Estate, etc.</p>
+		<p>The designers and editors took the bold decision to set the story in an innovative broadsheet format, with monochrome illustrations by Matt Duffin, big chapter numbers and no advertising to interrupt the story’s pace. It’s a rare example of magazine designers using the expanse of the newspaper page in a new and an effective way.</p>
+		<p>A short introduction (above) by editor Jake Silverstein sets the positive, print-centric tone of the section: ‘Though we are excited by innovations like virtual reality and digital storytelling, we also recognize the lasting power of the broadsheet. The custom design of today’s section aims to artfully explore the uses to which that format can be put. It is a special ink-on-paper product, one not available in digital form. It is finited and tactile; to read it you must have gotten your hands on the Sunday paper.’</p>
+		<p>New York Times Magazine Design director Gail Bichler spoke to Eyeabout the details of making the section: ‘A challenge with this project was taking the vertical page format of the newspaper and designing something that our readers can curl up with and read like a novel. We took advantage of the newspaper’s horizontal fold to create a layout that resembles two book spreads – one above the fold and one below. Extra wide margins in between the columns make the layout easy to fold into quarters, a habit of many readers.’</p>
+		<p>Asked about the monochrome illustrations Bichler said: ‘Colson Whitehead’s story is set in the mid-1800s during the era of slavery in America. We commissioned artist Matt Duffin to make the illustrations because his black-and-white work has a historical quality that captures the sombre mood of the story. Duffin works reductively by applying encaustic wax to a surface and then selectively removing it to create an image. We chose to feature objects the main character owned or encountered on her journey as our subjects.’</p>
+		<p>The Magazine’s design team is on a roll at the moment. The vertical format of today’s fiction section follows the acclaimed ‘High Life’ edition, made earlier this year, which shows New York from over 800 feet high. On that occasion, the whole magazine was rotated, skyscraper-like, and most of the advertising clients were persuaded to adapt their artwork to fit the non-standard format.</p>
+		<p>But for ‘There was no other way’ there are no ads, nothing but typography, evocative illustrations and a story worth telling. This is only the first in an occasional series. Silverstein, Bichler and crew promise more long ‘ink-on-paper’ excerpts, ‘finite and tactile’, in the near future.</p>
+		<p>Credits: Author: Colson Whitehead; Editor: Jake Silverstein; Design Director: Gail Bichler; Art Director: Matt Willey; Deputy Art Director: Jason Sfetko; Illustration: Matt Duffin.</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
