@@ -25,14 +25,17 @@
     }
 
     body {
-      font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+      font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
       line-height: 1.6;
       font-weight: 400;
       margin: 0;
+	  font-family:serif;
     }
 
     p {
-      margin-top: 1rem; }
+      margin-top: 1rem; 
+	  font-size:2rem;
+	}
       
     p.first {
       margin-top:4;
@@ -46,15 +49,15 @@
     }
 
     h4.title {
-        font-size: 2.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+        font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
         line-height: 1.6;
-        font-weight: 5000;
+        font-weight: 700;
         margin-top: 6rem;
 		padding:0;
     }
 
     h4.author {
-        font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+        font-size: 1.15em; /* currently ems cause chrome bug misinterpreting rems on body element */
         line-height: 1;
         font-weight: 500;
         margin-bottom: 9rem;
@@ -71,10 +74,11 @@
     }
 
     /* Larger than mobile */
-    @media (min-width: 400px) {
+    @media (min-width: 200px) {
 	    .column {
-	      width:40rem; /* Set your column width here */
+	      width:29.5rem; /* Set your column width here */
 	    }
+		p {font-size:1.5rem;}
     }
 
     /* Larger than phablet (also point when grid becomes active) */
@@ -86,7 +90,12 @@
 }
 
     /* Larger than tablet */
-    @media (min-width: 750px) {}
+    @media (min-width: 750px) {
+		.column {
+		margin-top: 5;
+        width: 77rem; /* Set your column width here */
+        margin: auto;
+    }}
 
     /* Larger than desktop */
     @media (min-width: 1000px) {}
